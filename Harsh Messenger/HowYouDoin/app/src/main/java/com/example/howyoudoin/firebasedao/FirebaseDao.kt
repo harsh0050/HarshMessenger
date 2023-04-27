@@ -57,7 +57,7 @@ class FirebaseDao(private val context: Context) {
                 GlobalScope.launch {
 
                     //add to local
-                    chatDao.addChat(ChatEntity(fName, fNumber, docRef.id).apply {
+                    chatDao.addChat(ChatEntity(fName, friendNumber, docRef.id).apply {
                         this.lastTime = time
                     })
 
