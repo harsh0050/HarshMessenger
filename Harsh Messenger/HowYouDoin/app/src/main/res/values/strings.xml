@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Harsh Messenger</string>
+    <string name="sign_in_otp_text">Enter your phone number to receive a one-time code to login</string>
+    <string name="mobile_number_e_g_5551234001">Mobile Number (e.g. 5551234001)</string>
+    <string name="sign_in">Sign In</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_code">Send Code</string>
+    <string name="otp">OTP</string>
+    <string name="enter_the_otp_one_time_password_you_received_in_below_mentioned_mobile_number">Enter the OTP(One Time Password) you received in below mentioned mobile number</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="sending_otp">Sending OTP…</string>
+    <string name="signing_in">Signing In…</string>
+    <string name="contacts">Contacts</string>
+    <string name="send">Send</string>
+    <string name="message">Message</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_button">send button</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".shareActivities.SendSheet"
+    android:paddingVertical="5dp"
+    android:paddingHorizontal="10dp"
+    android:background="@drawable/ic_rectangle">
+
+    <TextView
+        android:id="@+id/sentToTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sendToButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="harsh"
+        app:layout_constrainedWidth="true"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:elevation="0dp"
+        app:elevation="0dp"
+        android:id="@+id/sendToButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/baseline_arrow_forward_24"
+        app:maxImageSize="30dp"
+        android:contentDescription="@string/send_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
